@@ -1,7 +1,6 @@
 * 4channescript
-  This small perl scripts converts the 4chan filename (which is unix
-  time in milliseconds) and gives it to the file using =touch=
-
+  this perl scripts gets the time stamp from the 4chan filename (which is unix time
+  in milliseconds) and gives it to the file using =touch=
   Run this in a directory with 4chan files for example, a directory
   like this:
   #+BEGIN_SRC
