@@ -1,0 +1,15 @@
+* 4channescript
+  This small perl scripts converts the 4chan filename (which is unix
+  time in milliseconds) and gives it to the file using =touch=
+
+  Run this in a directory with 4chan files for example, a directory
+  like this:
+  #+BEGIN_SRC
+  1450659832892.png
+1492928441486.png
+1584736206383.jpg
+1584792153783.png
+  #+END_SRC
+
+The script will do what it does to every file that begins with 1. So
+i'll have to update this script in 2033-05-18.
